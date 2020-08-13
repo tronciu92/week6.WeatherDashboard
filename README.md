@@ -18,6 +18,11 @@ The UV Index information that is displayed changes background colors based on th
 * **Red** - UVI under 11 (8-10), protection strongly advised.
 * **Purple** - UVI 11+, protection strongly advised.
 
+# Screenshots:
+<img src="https://github.com/tronciu92/week6.WeatherDashboard/blob/master/assets/images/Screen%20Shot%201.png">
+
+<img src="https://github.com/tronciu92/week6.WeatherDashboard/blob/master/assets/images/Screen%20Shot%202.png">
+
 # Resources
 This page was built using the API created and provided by [Open Weather](https://openweathermap.org/). It uses their APIs for current weather, 5 day / 3 hour weather forecast, and UV Index.
 
