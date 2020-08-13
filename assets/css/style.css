@@ -1,0 +1,62 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url("../images/wheather.jpg");
+    background-size: 66% 100%
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+#search-input {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+}
+
+#search-history {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+}
+
+#current-location-button:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(60, 255, 0, 0.6);
+  transform: scale(1.02);
+  transform: transform 100ms;
+}
+
+#search-button:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  transform: scale(1.02);
+  transform: transform 100ms;
+}
+
+#clear-button:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 0, 0, 0.6);
+  transform: scale(1.02);
+  transform: transform 100ms;
+}
+
+@media screen and (max-width: 768px) {
+  #current-location-button {
+      min-width: 40rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #search-button {
+      min-width: 40rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #clear-button {
+      min-width: 40rem;
+  }
+}
