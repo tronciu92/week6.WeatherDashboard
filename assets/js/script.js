@@ -90,7 +90,6 @@ $(document).ready(function() {
             '</span>'
         );
 
-        // DRY this out...
         if (uvi < 3) {
           $('#uvi-badge').css('background-color', 'green');
         } else if (uvi < 6) {
